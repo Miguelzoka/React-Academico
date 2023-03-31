@@ -1,13 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cabecalho from "../components/Cabecalho";
-import Rodape from "../components/Rodape";
+import { Container } from 'react-bootstrap';
+import Pagina from '../components/Pagina';
+
 
 export default function Home() {
   return (
     <>
-      <Cabecalho/>
+      <Pagina/>
+
+      <Container>
       <h1>Hello world!</h1>
-      <Rodape/>
+      <p>Qualquer coisa</p>
+      <p>Qualquer coisa</p>
+      <p>Qualquer coisa</p>
+      
+      </Container>
+      
     </>
   )
 }
