@@ -1,8 +1,19 @@
 import React from 'react'
+import Pagina from '../components/Pagina'
 
 const array = () => {
+
+  const carros = ['Opala', 'Classic', 'Ka', 'Omega', 'Fuscão']
+
   return (
-    <div>array</div>
+    <Pagina titulo="Array">
+      <ol>
+      {carros.map(item=>(       
+        <li>{item}</li> 
+      ))}
+      </ol>
+
+    </Pagina>
   )
 }
 

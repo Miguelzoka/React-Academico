@@ -6,15 +6,14 @@ import Pagina from '../components/Pagina';
 export default function Home() {
   return (
     <>
-      <Pagina/>
-
-      <Container>
+      <Pagina titulo="Página Inicial">
+        <Container>
       <h1>Hello world!</h1>
       <p>Qualquer coisa</p>
       <p>Qualquer coisa</p>
       <p>Qualquer coisa</p>
-      
-      </Container>
+        </Container>
+      </Pagina>
       
     </>
   )
