@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+
 const Rodape = () => {
   return (
-    <h1>Rodape</h1>
+    <div style={{width: '100%'}} className='bg-secondary text-white py-3 text-center position-fixed bottom-0'>
+      <p>Rodapé</p>
+    </div>
   )
 }
 
